@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CountryInfo" representedClassName="CountryInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="callingCode" optional="YES" attributeType="String"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="connectionType" optional="YES" attributeType="String"/>
+        <attribute name="continentCode" optional="YES" attributeType="String"/>
+        <attribute name="continentName" optional="YES" attributeType="String"/>
+        <attribute name="countryCapital" optional="YES" attributeType="String"/>
+        <attribute name="countryCode2" optional="YES" attributeType="String"/>
+        <attribute name="countryCode3" optional="YES" attributeType="String"/>
+        <attribute name="countryFlag" optional="YES" attributeType="String"/>
+        <attribute name="countryName" optional="YES" attributeType="String"/>
+        <attribute name="countryTLD" optional="YES" attributeType="String"/>
+        <attribute name="district" optional="YES" attributeType="String"/>
+        <attribute name="geonameID" optional="YES" attributeType="String"/>
+        <attribute name="ip" optional="YES" attributeType="String"/>
+        <attribute name="isEu" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isp" optional="YES" attributeType="String"/>
+        <attribute name="languages" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="String"/>
+        <attribute name="organization" optional="YES" attributeType="String"/>
+        <attribute name="stateProv" optional="YES" attributeType="String"/>
+        <attribute name="zipcode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DayTime" representedClassName="DayTime" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="dateTime" optional="YES" attributeType="String"/>
+        <attribute name="dateTimeTxt" optional="YES" attributeType="String"/>
+        <attribute name="dateTimeUnix" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="dateTimeWti" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="dateTimeYmd" optional="YES" attributeType="String"/>
+        <attribute name="dstSavings" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isDst" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="month" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="time12" optional="YES" attributeType="String"/>
+        <attribute name="time24" optional="YES" attributeType="String"/>
+        <attribute name="timezone" optional="YES" attributeType="String"/>
+        <attribute name="timezoneOffset" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timezoneOffsetWithDst" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="week" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="yearAbbr" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Money" representedClassName="Money" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Quotes" representedClassName="Quotes" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="en" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Zone" representedClassName="Zone" syncable="YES" codeGenerationType="class">
+        <attribute name="currentTime" optional="YES" attributeType="String"/>
+        <attribute name="currentTimeUnix" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="dstSavings" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isDst" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="offset" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="CountryInfo" positionX="-63" positionY="-9" width="128" height="359"/>
+        <element name="Zone" positionX="-36" positionY="171" width="128" height="119"/>
+        <element name="DayTime" positionX="-18" positionY="180" width="128" height="284"/>
+        <element name="Quotes" positionX="0" positionY="189" width="128" height="74"/>
+        <element name="Money" positionX="18" positionY="198" width="128" height="74"/>
+    </elements>
+</model>
